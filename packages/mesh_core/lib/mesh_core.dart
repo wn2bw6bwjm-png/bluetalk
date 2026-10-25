@@ -1,0 +1,33 @@
+/// Pure-Dart core of the offline mesh messenger.
+library;
+
+export 'src/core/bytes_util.dart' show toHex, fromHex, randomBytes;
+export 'src/core/constants.dart';
+export 'src/core/errors.dart';
+export 'src/crypto/encryption_service.dart';
+export 'src/crypto/key_exchange_service.dart';
+export 'src/crypto/message_content.dart';
+export 'src/crypto/sealed_payload.dart';
+export 'src/crypto/session_service.dart';
+export 'src/identity/identity_service.dart';
+export 'src/identity/local_identity.dart';
+export 'src/identity/peer_directory.dart';
+export 'src/identity/peer_identity.dart';
+export 'src/identity/secret_store.dart';
+export 'src/networking/fragmenter.dart';
+export 'src/networking/mesh_node.dart';
+export 'src/networking/mesh_router.dart';
+export 'src/networking/native_transport.dart';
+export 'src/networking/peer_transport.dart';
+export 'src/protocol/mesh_packet.dart';
+export 'src/protocol/packet_codec.dart';
+export 'src/protocol/packet_signer.dart';
+export 'src/protocol/packet_type.dart';
+export 'src/protocol/packet_verifier.dart';
+export 'src/protocol/replay_guard.dart';
+export 'src/rooms/permissions.dart';
+export 'src/rooms/room_event.dart';
+export 'src/rooms/room_log.dart';
+export 'src/rooms/room_state.dart';
+export 'src/invites/invite.dart';
+export 'src/themes/theme_settings.dart';

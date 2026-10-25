@@ -1,0 +1,18 @@
+name: mesh_core
+description: Pure-Dart core of the offline mesh messenger (identity, crypto, protocol, framing, transport abstraction). No Flutter dependency, fully unit-testable.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  cbor: ^6.3.0
+  collection: ^1.18.0
+  crypto: ^3.0.3
+  cryptography: ^2.7.0
+  meta: ^1.11.0
+
+dev_dependencies:
+  lints: '>=4.0.0'
+  test: ^1.25.0

@@ -1,0 +1,18 @@
+name: mesh_multipeer_ios
+description: iOS transports (Swift) - Multipeer Connectivity for iPhone-iPhone and CoreBluetooth central for iPhone-Android. Part of the offline mesh messenger. Moves raw packets only; protocol lives in mesh_core.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: MeshMultipeerPlugin

@@ -1,0 +1,38 @@
+name: bluetalk
+description: BlueTalk - offline mesh messenger. No account, no server, no cloud.
+publish_to: none
+version: 0.2.0+2
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.27.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  flutter_secure_storage: ^9.2.2
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.4
+  sqlite3: ^2.4.6
+  sqlite3_flutter_libs: ^0.5.24
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.2.3
+  flutter_local_notifications: ^17.2.2
+
+  mesh_core:
+    path: ../packages/mesh_core
+  mesh_engine:
+    path: ../packages/mesh_engine
+  mesh_ble_android:
+    path: ../packages/mesh_ble_android
+  mesh_multipeer_ios:
+    path: ../packages/mesh_multipeer_ios
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

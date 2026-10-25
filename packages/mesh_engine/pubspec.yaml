@@ -1,0 +1,16 @@
+name: mesh_engine
+description: Stateful engine of the offline mesh messenger - SQLite storage with migrations, outbox, chats, rooms, search, block/mute. Depends on mesh_core only for protocol/crypto.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  mesh_core:
+    path: ../mesh_core
+  sqlite3: ^2.4.0
+
+dev_dependencies:
+  lints: '>=4.0.0'
+  test: ^1.25.0

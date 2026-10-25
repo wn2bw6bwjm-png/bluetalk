@@ -1,0 +1,19 @@
+name: mesh_ble_android
+description: Android BLE transport (GATT server + client, Kotlin) for the offline mesh messenger. Moves raw chunks only; protocol lives in mesh_core.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.19.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.meshchat.ble
+        pluginClass: MeshBlePlugin

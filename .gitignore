@@ -1,0 +1,7 @@
+.dart_tool/
+build/
+pubspec.lock
+pubspec_overrides.yaml
+.flutter-plugins*
+*.iml
+.idea/
